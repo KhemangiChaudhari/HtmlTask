@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <header>
+  <div id="title"><h1>Customer Survey Form</h1>
+    </header>
+
+<form id="survey-form">
+
+  <fieldset class="fieldset">
+
+    <div class="sub-group">
+      <label class="left" id="name-label" for="name">First Name:</label>
+    <input type="text" name="customer-name" class="right input-field" id="name" required>
+    </div>
+
+    <div class="sub-group">
+        <label class="left" id="name-label" for="name">Last Name:</label>
+      <input type="text" name="customer-name" class="right input-field" id="name" required>
+     </div>
+
+     <div class="sub-group">
+        <label class="left" id="name-label" for="name">Date of Birth:</label>
+      <input type="date" name="customer-name" class="right input-field" id="name-label" required>
+     </div>
+
+    <div class="sub-group">
+      <label class="left" for="dropdown">Country</label>
+
+      <select class="right dropdown" id="dropdown" name="dropdown">
+        <option selected disabled>Select an option</option>
+        <option value="first">India</option>
+        <option value="never">America</option>
+        <option value="never">Dubai</option>
+      </select>
+    </div>
+  </fieldset>
+
+  <fieldset class="fieldset">
+    <div class="sub-group">
+    <label class="left" id="left-radio">Gender:</label>
+  
+     <ul style="list-style: none" class="right">
+         <li class="radio"><label><input name="radio-buttons" value="1" type="radio" class="recommendation">Male</label></li>
+         <li class="radio"><label><input name="radio-buttons" value="2" type="radio" class="recommendation">Female</label></li>
+         <li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="recommendation">Transgender</label></li>
+     </ul>
+    </div></fieldset>
+
+    <fieldset class="fieldset">
+  <div class="sub-group">
+    <label class="left" for="dropdown">Profession</label>
+
+    <select class="right dropdown" id="dropdown" name="dropdown">
+      <option selected disabled>Select an option</option>
+      <option value="first">Miss</option>
+      <option value="never">Mrs</option>
+      <option value="never">Mr</option>
+    </select>
+  </div>
+</fieldset>
+<fieldset class="fieldset">
+   <div class="sub-group"> 
+    <label class="left" id="email-label" for="email">Email:</label>
+    <input type="email" name="Email-address" class="right input-field" id="email" required>
+    </div>
+
+    <div class="sub-group"> 
+        <label class="left" id="mobileno" for="mobileno">Mobile No:</label>
+        <input type="text" name="mobileno" class="right input-field" id="mobileno" required>
+        </div>
+   </fieldset>
+
+  <fieldset class="fieldset">
+    <div class="sub-group">
+        <label class="left" id="left-radio">Is this first time you are using our products & service ?</label>
+      
+         <ul style="list-style: none" class="right">
+             <li class="radio"><label><input name="radio-buttons1" value="yes" type="radio" class="recommendation">Yes</label></li>
+             <li class="radio"><label><input name="radio-buttons1" value="yes" type="radio" class="recommendation">No</label></li>
+         </ul>
+        </div>
+    </fieldset>
+
+    <fieldset class="fieldset">
+        <div class="sub-group">
+        <label class="left" id="left-radio">Would you suggestions to your colleagues?</label>
+      
+         <ul style="list-style: none" class="right">
+             <li class="radio"><label><input name="radio-buttons2" value="yes" type="radio" class="recommendation">Yes</label></li>
+             <li class="radio"><label><input name="radio-buttons2" value="yes" type="radio" class="recommendation">No</label></li>
+         </ul>
+        </div>
+      </fieldset>
+      
+        <fieldset class="fieldset">
+          <div class="sub-group">
+          <label class="left" id="left-radio">How satisfied are you with our company overall ?</label>
+        
+           <ul style="list-style: none" class="right">
+               <li class="radio"><label><input name="radio-buttons3" value="1" type="radio" class="recommendation">Satisfied</label></li>
+               <li class="radio"><label><input name="radio-buttons3" value="2" type="radio" class="recommendation">Undecided</label></li>
+               <li class="radio"><label><input name="radio-buttons3" value="3" type="radio" class="recommendation">Unsatisfied</label></li>
+           </ul>
+          </div>
+         </fieldset>
+
+    <fieldset class="fieldset">
+      <div class="commentbox">
+    <label class="left" id="name-label" for="name">Do you have suggestion to improve our service ?</label>
+    
+   
+     <textarea rows="4" ></textarea>
+
+       <br></br>
+
+        <button id="submit" type="submit" onclick="()">Submit</button>
+        <button id="reset" type="reset">Reset</button>
+    </div>
+       
+    </fieldset>
+    <div class="copyright">
+      <p>Copyright &copy; 2024 Customer Survey Form. All Right Reserved| Design By Khemangi. <i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+</form>
+</div>
+  </body>
+</html>
